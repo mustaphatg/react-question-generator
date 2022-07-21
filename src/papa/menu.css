@@ -1,0 +1,28 @@
+
+.menu-list {
+    height:100%;
+    padding-top: 20px;
+    padding: 20px 5px;
+}
+
+.menu-list a {
+    /* text-decoration: none; */
+    color: #424242;
+    padding: 10px;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 2px;
+}
+
+.menu-list a:hover {
+    text-decoration: underline;
+    /* border-radius: 7px; 
+    background:#42A5F5 ; */
+}
+
+
+body {
+    overflow: hidden;
+}

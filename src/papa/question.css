@@ -1,0 +1,25 @@
+
+.que{
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+
+
+.que li {
+    list-style-type: lower-alpha;
+    margin-top: 10px;
+}
+
+
+
+.formatedOption{
+    list-style-type:lower-alpha;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+
+.hide_save_edit {
+    display: none;
+}
