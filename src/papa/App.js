@@ -3,6 +3,7 @@ import Menu from "./Menu"
 import Header from "./Header"
 import SurahPage from "./SurahPage"
 import HomePage from "./pages/HomePage"
+import WordArt from "./wordArt"
 
 
 
@@ -44,11 +45,14 @@ function Layout(){
 
 
 
+
+
 const App = props => {
     
     return (
         <Routes>
             <Route path="/" element= { <HomePage /> }  />
+            <Route path="/Word-Art" element= { <WordArt /> }  />
             <Route element= { <Layout />  }>
                 <Route path="/surah/:surah" element= { <SurahPage  /> }  />          
             </Route>
